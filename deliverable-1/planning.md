@@ -17,7 +17,29 @@
  * Focus on *what* your product does, and avoid discussing *how* you're going to implement it.      
    For example: This is not the time or the place to talk about which programming language and/or framework you are planning to use.
  * **Feel free (and very much encouraged) to include useful diagrams, mock-ups and/or links**.
+ 
+ Guided Hike -- the hike that guides you as move across the trail. People can travel and go anything they want -- they will get their own interests. 
+The person's interests: ie: animals, birds | cultural history 
+ Wht it will do is the: tell them about it? 
+ Fitlers -- some poeple want to vocalziation/ text -- viusually impaired. -- Vibrations. 
+ 
+ Administrator - can see which info stays and stuff -- maintentaince -- blooms. 
+ 
+ Core functionalities: 
+  - BasicProduct - Process of adding - georeferenced - notifies them (vocal/text). 30 seconds.  plant/animal
+ 
+ Arrow on the way they are -- ie: compass??? 
+ Changes season by season -- they wont find it. They have checked off the toogle (invasive species) example he used wild mustard. 
+ tracks of wolves -- beaver -- birds (more like the waze app) people can have a point of the activity (expiry dates in the activity) Plants/aniaml seasonal. 
+ 
+ Only can listen to it if the filter is checked. More of a discorvery thing?? 
+ Outcome: engages, relative to the people, 
+ 
+ employer interests: indigneous history 
+Access only if they are there - sense of discovery 
+transforming the torusim. 
 
+Audio - default? - Administrator voice? - highlights, significance
 
 #### Q2: Who are your target users?
 
