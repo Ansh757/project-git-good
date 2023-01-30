@@ -76,10 +76,14 @@ Users will use our product if they want to learn about the features the park has
  * How will you deploy the application?
  * Describe the architecture - what are the high level components or patterns you will use? Diagrams are useful here. 
  * Will you be using third party applications or APIs? If so, what are they?
-- Website which is optimized for mobile devices
+
+The technology that we will use are all to optimize the site for mobile devices. We will be creating a website optimized for mobile devices using HTML, CSS, and React frameworks to help build an interactive expereince for the user. For the backend we will use Djanngo to store and handle data that is sent or processed.
+
+As for the geolocation and map, we are currently looking into tools that could help us. As things progress, we may also need gyroscopic data due to the nature of the project. Since we require accurate location data for our website to function accordingly, we need to research possible works we could use. Once again, we have not decided on how to do this
+<!-- - Website which is optimized for mobile devices
 - Bank-end: Django
 - Front-end: HTML, CSS, React
-- We need a tool for geolocation and the map. We may also need gyroscopic data. We have not decided on how to do this.
+- We need a tool for geolocation and the map. We may also need gyroscopic data. We have not decided on how to do this. -->
 ----
 ## Intellectual Property Confidentiality Agreement 
 > Note this section is **not marked** but must be completed briefly if you have a partner. If you have any questions, please ask on Piazza.
@@ -133,6 +137,9 @@ Describe meetings (and other events) you are planning to have.
    * You must have a regular meeting schedule established for the rest of the term.  
   
 #### Q9: How will you organize your team?
+For our scheduling, we will use Google Docs to assign tasks since we are all comfortable using that. We also meet often so we will have an idea of where everone is in their work. Since we also have a product manage and Scrum master, we have a structure in place to delegate and ensure that work is completed on time.
+
+Artifacts that we will have will be on Github actions. We will be able to see groups actions and progress to better organize our team. Artifacts may also be stored on github for ease of access. To prioritize tasks, we will have team meetings to decide what we need to focus on for things to run smoothly and also have an idea of how other parts are working.
 - Task schedule using Google Docs.
 - Github actions
 List/describe the artifacts you will produce in order to organize your team.       
@@ -145,6 +152,7 @@ List/describe the artifacts you will produce in order to organize your team.
    * How do you determine the status of work from inception to completion?
 
 #### Q10: What are the rules regarding how your team works?
+The way that our groups work will be that the whole team meets the every week on a designated day. If someone is not able to make a meeting the should seek to fill themselves in. Every two weeks, the individual groups will meet. For example, backend people will meet together and front end people will meet together to discuss their work. Communication will be done on discord since that is what most people are comfortable with. Also, by using discord, people can tune into other groups to see their progress. Discord is organized by creating a server in which all people can access it.
 - Rules: Full team meets in-person every two weeks. People working on the same part of the project (i.e., backend, frontend) communicates frequently (at least once a week). Online meetings between team members will take place on Discord (we have a server for our group, called CSC301 Git Good).
 **Communications:**
  * What is the expected frequency? What methods/channels will be used? 
