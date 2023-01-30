@@ -5,6 +5,7 @@
 ## Product Details
  
 #### Q1: What is the product?
+We are establishing a website, intended to be used on mobile devices, to allow for an exploration of points of interest through a guided hike for Arrowhead Provincial Park. Our partner is John Leadston — the park supervisor who is looking to enhance the user experience while not disrupting the natural environment. The problem we are solving is allowing interested park visitors to learn more about features that the park offers, without needing a tour guide, who some people are still uncomfortable with having due to the pandemic. The plan is for the website to display a map of the park. Interesting features of the park, such as trillium flowers, will be plotted on the map. These plotted points will not specify what exactly can be seen there. It will, however, have a general idea of what is there. In the trillium flowers example, the point on the map would say _Flowers_ as opposed to trillium. Once a user gets to the point, which will be identified using geolocation, a short textual and audio passage (30-45 seconds) will be played which describes the speacial feature at that location.
 
  > Short (1 - 2 min' read)
  * Start with a single sentence, high-level description of the product.
@@ -21,7 +22,7 @@
  Guided Hike -- the hike that guides you as move across the trail. People can travel and go anything they want -- they will get their own interests. 
 The person's interests: ie: animals, birds | cultural history 
  Wht it will do is the: tell them about it? 
- Fitlers -- some poeple want to vocalziation/ text -- viusually impaired. -- Vibrations. 
+ Filters -- some people want to vocalziation/ text -- viusually impaired. -- Vibrations. 
  
  Administrator - can see which info stays and stuff -- maintentaince -- blooms. 
  
@@ -42,12 +43,13 @@ transforming the torusim.
 Audio - default? - Administrator voice? - highlights, significance
 
 #### Q2: Who are your target users?
-
+Our target users are Arrowhead Provincial Park tourists who are interested in enhancing their park experience by engaging with the special features that the park has to offer. There is no particular age group for our product so long as the user can understand English.
   > Short (1 - 2 min' read max)
  * Be specific (e.g. a 'a third-year university student studying Computer Science' and not 'a student')
  * **Feel free to use personas. You can create your personas as part of this Markdown file, or add a link to an external site (for example, [Xtensio](https://xtensio.com/user-persona/)).**
 
 #### Q3: Why would your users choose your product? What are they using today to solve their problem/need?
+Users will use our product if they want to learn about the features the park has to offer. Today, they are using tour guides or self-research using search engines, and our goal is to combine it all into one simple platform. This product gives them a sense of direction and it saves them from having to individually research every aspect of the park. Currently, the park has no similar application. We were told that they had a similar guide called "My Campsite." However, after talking with John Leadston, we learned that that project is not similar to what we intend on doing. The concept of having geolocation which leads to audio is similar to that of Waze — a traffic navigation app.
 
 > Short (1 - 2 min' read max)
  * We want you to "connect the dots" for us - Why does your product (as described in your answer to Q1) fits the needs of your users (as described in your answer to Q2)?
@@ -64,6 +66,8 @@ Audio - default? - Administrator voice? - highlights, significance
  * You must follow proper user story format (as taught in lecture) ```As a <user of the app>, I want to <do something in the app> in order to <accomplish some goal>```
  * User stories must contain acceptance criteria. Examples of user stories with different formats can be found here: https://www.justinmind.com/blog/user-story-examples/. **It is important that you provide a link to an artifact containing your user stories**.
  * If you have a partner, these must be reviewed and accepted by them. You need to include the evidence of partner approval (e.g., screenshot from email) or at least communication to the partner (e.g., email you sent)
+- BasicProduct - Process of adding - georeferenced - notifies them (vocal/text). 30 seconds.  plant/animal
+ 
 
 #### Q5: Have you decided on how you will build it? Share what you know now or tell us the options you are considering.
 
@@ -72,7 +76,10 @@ Audio - default? - Administrator voice? - highlights, significance
  * How will you deploy the application?
  * Describe the architecture - what are the high level components or patterns you will use? Diagrams are useful here. 
  * Will you be using third party applications or APIs? If so, what are they?
-
+- Website which is optimized for mobile devices
+- Bank-end: Django
+- Front-end: HTML, CSS, React
+- We need a tool for geolocation and the map. We may also need gyroscopic data. We have not decided on how to do this.
 ----
 ## Intellectual Property Confidentiality Agreement 
 > Note this section is **not marked** but must be completed briefly if you have a partner. If you have any questions, please ask on Piazza.
@@ -87,7 +94,7 @@ Audio - default? - Administrator voice? - highlights, significance
 **Your partner cannot ask you to sign any legal agreements or documents pertaining to non-disclosure, confidentiality, IP ownership, etc.**
 
 Briefly describe which option you have agreed to.
-
+We have agreed to #5.
 ----
 
 ## Teamwork Details
@@ -98,7 +105,8 @@ Do a team-building activity in-person or online. This can be playing an online g
 * Get to know each other on a more personal level.
 * Provide a few sentences on what you did and share a picture or other evidence of your team building activity.
 * Share at least three fun facts from members of you team (total not 3 for each member).
-
+- We played Among Us together while talking on Discord and got to know each other.
+- 3 fun facts: We all like golf. Most of us like the Toronto Raptors while others like the Oklahoma City Thunder. None of us wanted to meet for bubble tea because none of us like it.
 
 #### Q7: What are the roles & responsibilities on the team?
 
@@ -111,9 +119,10 @@ Describe the different roles on the team and the responsibilities associated wit
 List each team member and:
  * A description of their role(s) and responsibilities including the components they'll work on and non-software related work
  * Why did you choose them to take that role? Specify if they are interested in learning that part, experienced in it, or any other reasons. Do no make things up. This part is not graded but may be reviewed later.
-
+(DO THIS ON YOUR OWN)
 
 #### Q8: How will you work as a team?
+Currently, we meet from 4-6PM every Monday as a team in-person at the Gerstein library, and on Thursdays we meet online on Microsoft Teams with John Leadston from 3-4PM. Every other Friday, we meet with an IT specialist with Ontario Parks using Microsoft Teams.
 
 Describe meetings (and other events) you are planning to have. 
  * When and where? Recurring or ad hoc? In-person or online?
@@ -124,7 +133,8 @@ Describe meetings (and other events) you are planning to have.
    * You must have a regular meeting schedule established for the rest of the term.  
   
 #### Q9: How will you organize your team?
-
+- Task schedule using Google Docs.
+- Github actions
 List/describe the artifacts you will produce in order to organize your team.       
 
  * Artifacts can be To-Do lists, Task boards, schedule(s), meeting minutes, etc.
@@ -135,7 +145,7 @@ List/describe the artifacts you will produce in order to organize your team.
    * How do you determine the status of work from inception to completion?
 
 #### Q10: What are the rules regarding how your team works?
-
+- Rules: Full team meets in-person every two weeks. People working on the same part of the project (i.e., backend, frontend) communicates frequently (at least once a week). Online meetings between team members will take place on Discord (we have a server for our group, called CSC301 Git Good).
 **Communications:**
  * What is the expected frequency? What methods/channels will be used? 
  * If you have a partner project, what is your process for communicating with your partner?
